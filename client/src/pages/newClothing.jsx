@@ -22,6 +22,15 @@ const NewClothing = () => {
         <input type="text" placeholder="Retail Price" className="" />
         <input type="text" placeholder="Color" className="" />
         <input type="text" placeholder="Min Rental Period" className="" />
+        <input
+          type="file"
+          id="img-upload"
+          accept="image/png, image/jpeg"
+          capture="filesystem"
+        />
+        <label htmlFor="img-upload" className="addPicturesBtn">
+          Add Pictures
+        </label>
       </div>
     </div>
   );
