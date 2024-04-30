@@ -1,0 +1,13 @@
+.newClothingComponent {
+  background-color: rgb(204, 204, 204);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer input {
+  width: 50%;
+  margin: 10px 10px;
+}
