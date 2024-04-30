@@ -1,5 +1,14 @@
 .newClothingComponent {
-  background-color: rgb(204, 204, 204);
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  background-color: rgb(247, 247, 247);
+  width: 80%;
+  margin: auto;
+}
+
+.newClothingComponent h1 {
+  margin: 5px 200px;
 }
 
 .formContainer {
@@ -8,6 +17,10 @@
 }
 
 .formContainer input {
-  width: 50%;
-  margin: 10px 10px;
+  width: 500px;
+  margin: 10px 50px;
+  padding: 5px;
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 }
